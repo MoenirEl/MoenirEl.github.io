@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: initial;
+    height: 800px;
+    width: 1518px;
+    background-color: black;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: flex-start;
+    height: 70px;
+    width: 1518px;
+    background-color: blue;
+}
+.rechterbar{
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    height:70px;
+    width: 818px;
+}
+.mid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: center;
+    height: 730px;
+    width: 914px ;
+    background-color: beige;
+}
+.whiteruimte{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    align-items: center;
+    height: 730px;
+    width: 302px ;
+    background-color: plum ;   
+}
+.blokje1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-self:auto;
+    align-items: center;
+    height: 243px;
+    width: 302px ;
+    background-color: red ;   
+}
+.blokje2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-self:auto;
+    align-items: center;
+    height: 243px;
+    width: 302px ;
+    background-color: blue ;   
+}
+.blokje3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-self:auto;
+    align-items: center;
+    height: 243px;
+    width: 302px ;
+    background-color: purple ;   
+}
+
+
