@@ -12,22 +12,7 @@
     width: 1518px;
     background-color: black;
 }
-.bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: normal;
-    align-items: flex-start;
-    height: 70px;
-    width: 1518px;
-    background-color: blue;
-}
-.rechterbar{
-    display:flex;
-    justify-content: right;
-    align-items: right;
-    height:70px;
-    width: 818px;
-}
+
 .mid{
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +23,7 @@
     width: 914px ;
     background-color: beige;
 }
-.whiteruimte{
+.whiteRuimte{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column; 
@@ -57,7 +42,7 @@
     align-items: center;
     height: 243px;
     width: 302px ;
-    background-color: red ;   
+    background-color: white ;   
 }
 .blokje2{
     display: flex;
@@ -68,7 +53,7 @@
     align-items: center;
     height: 243px;
     width: 302px ;
-    background-color: blue ;   
+    background-color: white ;   
 }
 .blokje3{
     display: flex;
@@ -79,7 +64,48 @@
     align-items: center;
     height: 243px;
     width: 302px ;
-    background-color: purple ;   
+    background-color: white ;   
 }
+
+body {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  #navbar {
+    overflow: hidden;
+    background-color: #6D98BA;
+    width: 1518px;
+  }
+  
+  #navbar a {
+    float: right;
+    display: block;
+    color: #2b3a67;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  #navbar a:hover {
+    background-color: #C17767 ;
+    color: #2b3a67;
+  }
+  
+  #navbar a.active {
+    background-color: #C17767;
+    color: #2b3a67;
+  }
+  #navbar p{
+      float:left;
+      color: #2b3a67 ;
+  }
+  .sticky {
+    position: fixed;
+    top: 10;
+    width: 1518px;
+  }
+  
 
 
