@@ -42,7 +42,7 @@
     align-items: center;
     height: 243px;
     width: 302px ;
-    background-color: white ;   
+    background-color: purple ;   
 }
 .blokje2{
     display: flex;
@@ -53,7 +53,7 @@
     align-items: center;
     height: 243px;
     width: 302px ;
-    background-color: white ;   
+    background-color: yellow ;   
 }
 .blokje3{
     display: flex;
@@ -64,7 +64,7 @@
     align-items: center;
     height: 243px;
     width: 302px ;
-    background-color: white ;   
+    background-color: blue ;   
 }
 
 body {
@@ -106,8 +106,6 @@ body {
     top: 10;
     width: 1518px;
   }
-  .random{
-      background-color: plum;
-  }
+
 
 
