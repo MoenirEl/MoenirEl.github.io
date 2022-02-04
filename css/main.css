@@ -1,126 +1,138 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.main{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: initial;
-    height: 800px;
-    width: 1518px;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.mid{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    justify-content: space-evenly;
-    text-align: left;
-    height: 800px;
-    width: 914px ;
-    background-color:#d8725b ;
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: initial;
+  height: 800px;
+  width: 1518px;
+
 }
-.whiteRuimte{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; 
-    justify-content: space-evenly;
-    align-items: center;
-    height: 800px;
-    width: 302px ;
-    background-color: #60a7dd;   
+
+.mid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: left;
+  height: 800px;
+  width: 914px;
+  background-color: #d8725b;
 }
-.blokje1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    justify-content: space-evenly;
-    align-self:auto;
-    align-items: center;
-    height: 260px;
-    width: 302px ;
-    background-color: #60a7dd;   
+
+.whiteRuimte {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 800px;
+  width: 302px;
+  background-color: #60a7dd;
 }
-.blokje2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    justify-content: space-evenly;
-    align-self:auto;
-    align-items: center;
-    height: 260px;
-    width: 302px ;
-    background-color: #60a7dd;   
+
+.blokje1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: auto;
+  align-items: center;
+  height: 260px;
+  width: 302px;
+  background-color: #60a7dd;
 }
-.blokje3{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; 
-    justify-content: space-evenly;
-    align-self:auto;
-    align-items: center;
-    height: 260px;
-    width: 302px ;
-    background-color: #60a7dd;   
+
+.blokje2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: auto;
+  align-items: center;
+  height: 260px;
+  width: 302px;
+  background-color: #60a7dd;
+}
+
+.blokje3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: auto;
+  align-items: center;
+  height: 260px;
+  width: 302px;
+  background-color: #60a7dd;
 }
 
 body {
-    font-size: 28px;
-  }
-  
-  #navbar {
-    overflow: hidden;
-    background-color: #6D98BA;
-    width: 1518px;
-  }
-  
-  #navbar a {
-    float: right;
-    display: block;
-    color: #2b3a67;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  #navbar a:hover {
-    background-color: #C17767 ;
-    color: #2b3a67;
-  }
-  
-  #navbar a.active {
-    background-color: #C17767;
-    color: #2b3a67;
-  }
-  #navbar p{
-      float:left;
-      top: px;
-      color: #2b3a67 ;
-  }
-  .sticky {
-    position: fixed;
-    width: 1518px;
-  }
+  font-size: 28px;
+}
 
-  .about_text{
-    margin-top: 50px;
-    width: 500px;
-  }
-.pf{
+#navbar {
+  overflow: hidden;
+  background-color: #6D98BA;
+  width: 1518px;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #2b3a67;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#navbar a:hover {
+  background-color: #C17767;
+  color: #2b3a67;
+}
+
+#navbar a.active {
+  background-color: #C17767;
+  color: #2b3a67;
+}
+
+#navbar p {
+  float: left;
+  top: px;
+  color: #2b3a67;
+}
+
+.sticky {
+  position: fixed;
+  width: 1518px;
+}
+
+.about_text {
+  margin-top: 50px;
+  width: 500px;
+}
+
+.pf {
   height: 400px;
   width: auto;
   margin-top: 30px;
 }
-.small_pf{
-height: 350px;
-width: 350px;
-margin-top: 30px;
+
+.small_pf {
+  height: 350px;
+  width: 350px;
+  margin-top: 30px;
 }
-input[type=text], select, textarea {
+
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -144,7 +156,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.contact{
+.contact {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
